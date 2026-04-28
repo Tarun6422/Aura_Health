@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Branches - Aura Health</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+    <div class="logo">Aura Health</div>
+
+    <nav id="nav">
+        
+        <a href="index.html">Home</a>
+        <a href="branches.html" class="active">Branches</a>
+        <a href="doctors.html">Doctors</a>
+    </nav>
+
+    <div class="auth">
+        <a href="signin.html">Sign in</a>
+        <a href="booking.html"><button class="btn">Book Appointment</button></a>
+    </div>
+
+    <div class="menu" onclick="toggleMenu()">☰</div>
+</header>
+
+
+<!-- Branch Section -->
+<section class="page">
+    <h1>Our Branches</h1>
+
+    <div class="branch-cards">
+
+        <!-- 1 -->
+        <div class="branch">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef">
+            <div class="branch-content">
+                <h3>Greenfield Branch</h3>
+                <p class="location">📍 San Francisco, CA</p>
+                <p>24/7 emergency care with advanced medical facilities and expert doctors.</p>
+                <a href="branch-details.html?name=greenfield" class="btn">View Details</a>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="branch">
+            <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3">
+            <div class="branch-content">
+                <h3>Riverside Branch</h3>
+                <p class="location">📍 Austin, TX</p>
+                <p>Specialized diagnostics and personalized healthcare services.</p>
+               <a href="branch-details.html?name=greenfield" class="btn">View Details</a>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="branch">
+            <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907">
+            <div class="branch-content">
+                <h3>Sunhill Branch</h3>
+                <p class="location">📍 Boston, MA</p>
+                <p>Top-rated specialists with modern treatment technology.</p>
+                <a href="branch-details.html?name=greenfield" class="btn">View Details</a>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="branch">
+            <img src="https://images.unsplash.com/photo-1519494080410-f9aa8f52f1e1">
+            <div class="branch-content">
+                <h3>CarePoint Center</h3>
+                <p class="location">📍 New York, NY</p>
+                <p>Highly trained staff and advanced surgical facilities.</p>
+               <a href="branch-details.html?name=greenfield" class="btn">View Details</a>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="branch">
+            <img src="https://images.unsplash.com/photo-1504439468489-c8920d796a29">
+            <div class="branch-content">
+                <h3>Wellness Hub</h3>
+                <p class="location">📍 Chicago, IL</p>
+                <p>Preventive healthcare and wellness progr</p>
+                    <a href="branch-details.html?name=greenfield" class="btn">View Details</a>
+                    
+
+
+
+            </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="branch">
+            <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb">
+            <div class="branch-content">
+                <h3>LifeCare Center</h3>
+                <p class="location">📍 Los Angeles, CA</p>
+                <p>State-of-the-art infrastructure with patient-first care.</p>
+                <a href="branch-details.html?name=greenfield" class="btn">View Details</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- JS -->
+<script>
+function toggleMenu() {
+    let nav = document.getElementById("nav");
+    nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>
